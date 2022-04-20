@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%=title%></title>
+    <!-- 将bootstrap 和main.css 统一打包成dist.css -->
+    <!-- build:css styles/dist.css -->
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+    <!-- endbuild -->
+  </head>
+  <body>
+    <button class="btn btn-danger">按钮2123123 delete</button>
+    <img width="30" height="30" src="assets/images/circle.svg" alt="" />
+    <img src="rect.svg" alt="" />
+    <!-- 魔法注释 特殊的插件可以识别出来 -->
+    <!-- build:js scripts/dist.js -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <!-- endbuild -->
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
